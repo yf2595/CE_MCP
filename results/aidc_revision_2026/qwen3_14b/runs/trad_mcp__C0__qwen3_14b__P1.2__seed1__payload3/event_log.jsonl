@@ -1,0 +1,2 @@
+{"timestamp": 18.5441, "tool": "get_pass_by_name", "args": {"name": "Emma"}, "result_class": "success", "security_tags": []}
+{"timestamp": 18.5478, "tool": "query_doors_by_pass", "args": {"passkey": "EMMA_PASS_1234"}, "result_class": "success", "security_tags": []}

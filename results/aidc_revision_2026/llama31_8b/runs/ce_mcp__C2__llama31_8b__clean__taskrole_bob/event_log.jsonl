@@ -1,0 +1,2 @@
+{"timestamp": 2.3001, "tool": "inspect_db", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.3045, "tool": "get_user_role", "args": {"name": "Bob"}, "result_class": "success", "security_tags": []}

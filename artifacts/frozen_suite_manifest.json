@@ -1,0 +1,142 @@
+{
+  "manifest_version": "1.0",
+  "entries": [
+    {
+      "path": "configs/attacks.yaml",
+      "sha256": "c7186e6a696970044a1dc176244056a5163bd7eaad1eb6697f34f806ac69a353",
+      "purpose": "payloads"
+    },
+    {
+      "path": "configs/clean_tasks.yaml",
+      "sha256": "c0199b9daeb9a3d953ef14cd8975e9bce3ae3bb34581dbf5288f202f43475c67",
+      "purpose": "tasks"
+    },
+    {
+      "path": "configs/experiment.yaml",
+      "sha256": "17b96174ed5465eac3190964a6a4255962e7416d716b354c02884b81b87471ce",
+      "purpose": "config"
+    },
+    {
+      "path": "src/agents/prompts.py",
+      "sha256": "b29af364a1ad0711d949d5f9bfaf696371420a5926edd6696fd37529ecd2cf6c",
+      "purpose": "prompts"
+    },
+    {
+      "path": "src/attacks/clean_tasks.py",
+      "sha256": "1fd377af103d9ed44f505bad7030da75d73bfb7ddc2a929bc6f9a830653b4988",
+      "purpose": "tasks"
+    },
+    {
+      "path": "src/attacks/definitions.py",
+      "sha256": "31181bdad9e0418e69dc6928815cde29cddf0b7c605ea90dea682354f9cb1481",
+      "purpose": "tasks"
+    },
+    {
+      "path": "src/attacks/expansion.py",
+      "sha256": "b7e3d2d6d90724383ae65c06768914175429123e1ae77da7f37702f6baa5dd7e",
+      "purpose": "tasks"
+    },
+    {
+      "path": "src/attacks/variants.py",
+      "sha256": "d75880a90eafbe9ce406b97d024fe0cb7087956c9ab9e5ed6c91f69ca85a02d0",
+      "purpose": "payloads"
+    },
+    {
+      "path": "src/cemcp/parser.py",
+      "sha256": "f69da7baba0fd4d2a8750171656b8b831b6ab1a3497e7396c8513469203fabd7",
+      "purpose": "policy"
+    },
+    {
+      "path": "src/cemcp/program_schema.py",
+      "sha256": "e145383d864ad0195d284a6fff7672296f6bbff4ed5db4834e81380a759ada9e",
+      "purpose": "policy"
+    },
+    {
+      "path": "src/cemcp/safe_executor.py",
+      "sha256": "7ebd48ea7ce0a68464d4bdc16db114ffb5c5378a0637268ee49458f6ea837465",
+      "purpose": "policy"
+    },
+    {
+      "path": "src/cemcp/static_validator.py",
+      "sha256": "9a30410d86f69fdab93528aff52f01ec68ddba54013faf1fdc14b0de216f69b3",
+      "purpose": "policy"
+    },
+    {
+      "path": "src/defenses/policy.py",
+      "sha256": "9d2e6bc53b9fa6a5ca4c88b7a3ed2231a804fcd396287f28b0ad43558ce6cae3",
+      "purpose": "policy"
+    },
+    {
+      "path": "src/defenses/post_semantic_gate.py",
+      "sha256": "0ca093ccec7f3a5f9371da4a8978f28daff922da34df21c295f25be73e8a9e77",
+      "purpose": "policy"
+    },
+    {
+      "path": "src/defenses/pre_semantic_gate.py",
+      "sha256": "d5eb710e87218f3dbac1b2fa76860b68ba03a44a2bece3c6d663c15a421353f5",
+      "purpose": "policy"
+    },
+    {
+      "path": "src/defenses/runtime_monitor.py",
+      "sha256": "148bb54b43273bf07df90cd26a395b1dfefd60b927a374a71847da83015a3d97",
+      "purpose": "policy"
+    },
+    {
+      "path": "src/evaluation/metrics.py",
+      "sha256": "6ffb776d61db05aa327c5d248d6f50eb50253acc205e5e54b138cab860fccc62",
+      "purpose": "oracle"
+    },
+    {
+      "path": "src/evaluation/oracle.py",
+      "sha256": "d82dced76fbffb978149429f1f4eb64b7a347f552f5f1169b03c004d1e61d197",
+      "purpose": "oracle"
+    },
+    {
+      "path": "src/lab/event_log.py",
+      "sha256": "0f1dfc2dc37fc6bbd087a10ab83260d5b6b31c37287a986c9b7abb5b0ac89441",
+      "purpose": "state"
+    },
+    {
+      "path": "src/lab/fixtures.py",
+      "sha256": "e0c0fdd8d2542bd02ee4c0c691146cbafb536c93fe9d19de41f62d902ad391b9",
+      "purpose": "state"
+    },
+    {
+      "path": "src/lab/safety_guard.py",
+      "sha256": "2259f03392af6e75a1252480ff445b100ea0dd4a8dd7e823182390a9f63b0413",
+      "purpose": "policy"
+    },
+    {
+      "path": "src/lab/state.py",
+      "sha256": "81bf70cf70f78369c68d646ddcc0251c9cc6e981e8ebba67f2d612ea976d5ea2",
+      "purpose": "state"
+    },
+    {
+      "path": "src/lab/virtual_fs.py",
+      "sha256": "9b40d3a5fe014f9c6cb03a0e6e5bdd20044f39db2ca21e899be60272ff571f7d",
+      "purpose": "state"
+    },
+    {
+      "path": "src/mcp_server/malicious_behaviors.py",
+      "sha256": "1f7c5c96a8ac5c6eee19e2f1c0c169feb8ffa1ef45e5981aeb01482b21ce30b0",
+      "purpose": "payloads"
+    },
+    {
+      "path": "src/mcp_server/server.py",
+      "sha256": "f050d33ae4e7aad9d868d6270f269987a3ff9d3bf6c000060c86a3720b3a268f",
+      "purpose": "tools"
+    },
+    {
+      "path": "src/mcp_server/tool_registry.py",
+      "sha256": "4145bfe91bca3e5c7a1c680d4716cbc729dd20fc93873a928e0f5034de14a079",
+      "purpose": "tools"
+    },
+    {
+      "path": "src/mcp_server/tools.py",
+      "sha256": "9501d4103e74d24014b0e9d7516d3de09244d61d0fa2eaa96abca1071c4b15a5",
+      "purpose": "tools"
+    }
+  ],
+  "missing": [],
+  "suite_manifest_sha256": "e7a3fddb2a5aeae83e6328f479dd16a06bd34fc09c4c6a07e0eb02d3d4871920"
+}

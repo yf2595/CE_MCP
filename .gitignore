@@ -1,0 +1,31 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+aidc_ce_mcp_security.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+/runs/
+results/raw/
+results/aidc_revision_2026/_dbg/
+**/replay_dbg_*/
+*.log
+gpu_metadata.txt
+.DS_Store
+Thumbs.db
+
+# Local IDE / OS artifacts
+.idea/
+.vscode/
+
+# Never upload secrets, cluster configs, or environment dumps
+artifacts/gpt54_access_probe.json
+artifacts/openai_laptop_environment.txt
+**/slurm/
+**/*.sbatch
+**/*slurm*

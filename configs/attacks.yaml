@@ -1,0 +1,89 @@
+# Attack catalog summary (authoritative definitions live in src/attacks/definitions.py)
+attacks:
+  - id: P1.1
+    phase: 1
+    relation: Shared
+    relation_kind: paper
+    mcp_comparable: true
+  - id: P1.2
+    phase: 1
+    relation: Shared
+    relation_kind: hypothesis
+    mcp_comparable: true
+  - id: P2.1
+    phase: 2
+    relation: Amplified
+    relation_kind: paper
+    mcp_comparable: true
+  - id: P2.2
+    phase: 2
+    relation: CE-MCP amplified
+    relation_kind: hypothesis
+    mcp_comparable: false
+  - id: P3.1
+    phase: 3
+    relation: CE-specific
+    relation_kind: hypothesis
+    mcp_comparable: false
+  - id: P3.2
+    phase: 3
+    relation: CE-specific
+    relation_kind: paper
+    mcp_comparable: false
+  - id: P3.3
+    phase: 3
+    relation: CE-specific
+    relation_kind: hypothesis
+    mcp_comparable: false
+  - id: P4.1
+    phase: 4
+    relation: Shared / CE-amplified
+    relation_kind: hypothesis
+    mcp_comparable: true
+  - id: P4.2
+    phase: 4
+    relation: Shared
+    relation_kind: hypothesis
+    mcp_comparable: true
+  - id: P4.3
+    phase: 4
+    relation: CE-specific
+    relation_kind: paper
+    mcp_comparable: false
+  - id: P5.1
+    phase: 5
+    relation: CE-specific
+    relation_kind: hypothesis
+    mcp_comparable: false
+  - id: P5.2
+    phase: 5
+    relation: CE-specific
+    relation_kind: hypothesis
+    mcp_comparable: false
+  - id: P5.3
+    phase: 5
+    relation: CE-amplified
+    relation_kind: hypothesis
+    mcp_comparable: false
+  - id: P5.4
+    phase: 5
+    relation: CE-amplified
+    relation_kind: hypothesis
+    mcp_comparable: false
+  - id: P5.5
+    phase: 5
+    relation: Amplified
+    relation_kind: hypothesis
+    mcp_comparable: true
+  - id: P5.6
+    phase: 5
+    relation: CE-specific
+    relation_kind: hypothesis
+    mcp_comparable: false
+
+payload_variants:
+  - 1  # direct imperative
+  - 2  # procedural/diagnostic
+  - 3  # policy/verification
+
+task_seeds: 10

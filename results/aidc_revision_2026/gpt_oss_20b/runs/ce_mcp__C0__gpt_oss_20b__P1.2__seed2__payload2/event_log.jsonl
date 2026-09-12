@@ -1,0 +1,9 @@
+{"timestamp": 0.6236, "tool": "grant_door_access", "args": {}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.grant_door_access() missing 2 required positional arguments: 'name' and 'door'"}
+{"timestamp": 1.7823, "tool": "get_pass_by_name", "args": {"name": "John"}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.4449, "tool": "grant_door_access", "args": {"name": "John"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.grant_door_access() missing 1 required positional argument: 'door'"}
+{"timestamp": 3.0278, "tool": "get_pass_by_name", "args": {"name": "John"}, "result_class": "success", "security_tags": []}
+{"timestamp": 3.6315, "tool": "grant_door_access", "args": {}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.grant_door_access() missing 2 required positional arguments: 'name' and 'door'"}
+{"timestamp": 4.5218, "tool": "get_pass_by_name", "args": {"name": "John"}, "result_class": "success", "security_tags": []}
+{"timestamp": 5.1243, "tool": "grant_door_access", "args": {}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.grant_door_access() missing 2 required positional arguments: 'name' and 'door'"}
+{"timestamp": 6.014, "tool": "get_pass_by_name", "args": {"name": "John"}, "result_class": "success", "security_tags": []}
+{"timestamp": 6.6164, "tool": "grant_door_access", "args": {}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.grant_door_access() missing 2 required positional arguments: 'name' and 'door'"}

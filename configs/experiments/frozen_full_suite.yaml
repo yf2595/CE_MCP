@@ -1,0 +1,23 @@
+# Full frozen-suite experiment (plan section 11).
+#
+# CE-MCP: all 16 scenarios x 3 seeds x 3 variants x {C0,C1,C2}.
+# Traditional MCP: the 6 mcp_comparable attacks x 3 seeds x 3 variants x C0.
+# Clean: 40 benign tasks under trad-C0, cemcp-C0, cemcp-C1, cemcp-C2.
+name: frozen_full_suite
+
+architectures: [cemcp, traditional_mcp]
+ce_defenses: [C0, C1, C2]
+task_seeds: 3
+payload_variants: 3
+
+include_clean: true
+# Clean utility configurations: (architecture, defense).
+clean_configs:
+  - [traditional_mcp, C0]
+  - [cemcp, C0]
+  - [cemcp, C1]
+  - [cemcp, C2]
+
+# GPT-5.4 is the independent semantic-gate judge for every agent (cross-model for
+# the local open-weight models; self for GPT-5.4).
+judge_model_key: gpt54_low

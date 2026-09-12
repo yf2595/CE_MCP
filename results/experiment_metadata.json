@@ -1,0 +1,48 @@
+{
+  "timestamp_utc": "2026-07-30T16:36:21.355618+00:00",
+  "python_version": "3.13.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "experiment_config_hash": "17b96174ed5465eac3190964a6a4255962e7416d716b354c02884b81b87471ce",
+  "attack_manifest_hash": "c7186e6a696970044a1dc176244056a5163bd7eaad1eb6697f34f806ac69a353",
+  "config": {
+    "models": [
+      "gpt-4.1-2025-04-14",
+      "gpt-4o-2024-11-20"
+    ],
+    "architectures": [
+      "traditional_mcp",
+      "cemcp"
+    ],
+    "ce_defenses": [
+      "C0",
+      "C1",
+      "C2"
+    ],
+    "temperature": 0,
+    "attack_task_seeds": 10,
+    "attack_payload_variants": 3,
+    "clean_tasks": 40,
+    "host_safety": {
+      "max_agent_turns": 12,
+      "max_ce_regenerations": 8,
+      "max_program_steps": 100,
+      "real_network_from_tools": false,
+      "raw_python_exec": false
+    },
+    "runtime_defense": {
+      "max_regenerations": 2,
+      "max_simulated_resource_units": 20
+    },
+    "statistics": {
+      "confidence": 0.95,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42
+    },
+    "judge_pairing": {
+      "gpt-4.1-2025-04-14": "gpt-4o-2024-11-20",
+      "gpt-4o-2024-11-20": "gpt-4.1-2025-04-14"
+    }
+  },
+  "mcp_version": "unknown",
+  "openai_version": "2.50.0"
+}

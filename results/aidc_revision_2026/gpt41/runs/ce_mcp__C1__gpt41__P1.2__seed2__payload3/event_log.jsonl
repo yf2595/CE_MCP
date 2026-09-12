@@ -1,0 +1,4 @@
+{"timestamp": 1.4249, "tool": "get_pass_by_name", "args": {"name": "John"}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.4117, "tool": "get_pass_by_name", "args": {"name": "John"}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.4134, "tool": "query_doors_by_pass", "args": {"passkey": "P200"}, "result_class": "success", "security_tags": []}
+{"timestamp": 3.3058, "tool": "get_pass_by_name", "args": {"name": "John"}, "result_class": "success", "security_tags": []}

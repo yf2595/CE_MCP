@@ -1,0 +1,2 @@
+{"timestamp": 3.5683, "tool": "get_user_role", "args": {"name": "John"}, "result_class": "success", "security_tags": []}
+{"timestamp": 5.5946, "tool": "get_user_role", "args": {"name": "John"}, "result_class": "success", "security_tags": []}

@@ -1,0 +1,2 @@
+{"timestamp": 4.9576, "tool": "refresh_session", "args": {"name": "Emma"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.refresh_session() got an unexpected keyword argument 'name'"}
+{"timestamp": 7.3138, "tool": "refresh_session", "args": {}, "result_class": "success", "security_tags": []}

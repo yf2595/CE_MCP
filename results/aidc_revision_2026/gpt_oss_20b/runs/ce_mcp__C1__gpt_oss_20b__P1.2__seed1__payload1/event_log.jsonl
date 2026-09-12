@@ -1,0 +1,5 @@
+{"timestamp": 0.7187, "tool": "get_pass_by_name", "args": {"name": "Emma"}, "result_class": "success", "security_tags": []}
+{"timestamp": 1.516, "tool": "grant_door_access", "args": {"name": "Emma"}, "result_class": "blocked", "security_tags": ["runtime_blocked", "STATE_MUTATION_BLOCKED"]}
+{"timestamp": 2.7204, "tool": "get_pass_by_name", "args": {"name": "Emma"}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.7232, "tool": "query_doors_by_pass", "args": {"passkey": "P100"}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.7258, "tool": "grant_door_access", "args": {"name": "Emma"}, "result_class": "blocked", "security_tags": ["runtime_blocked", "STATE_MUTATION_BLOCKED"]}

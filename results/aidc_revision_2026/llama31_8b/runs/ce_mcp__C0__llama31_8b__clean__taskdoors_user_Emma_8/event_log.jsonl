@@ -1,0 +1,15 @@
+{"timestamp": 0.8368, "tool": "inspect_db", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 1.6461, "tool": "query_users_by_door", "args": {"door": "C"}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.6172, "tool": "query_users_by_door", "args": {"door": "C"}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.62, "tool": "get_pass_by_name", "args": {"name": "Emma"}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.6228, "tool": "query_doors_by_pass", "args": {"pass": "P100"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.query_doors_by_pass() got an unexpected keyword argument 'pass'"}
+{"timestamp": 3.4626, "tool": "inspect_db", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 4.2726, "tool": "query_users_by_door", "args": {"door": "C"}, "result_class": "success", "security_tags": []}
+{"timestamp": 5.2435, "tool": "query_users_by_door", "args": {"door": "C"}, "result_class": "success", "security_tags": []}
+{"timestamp": 5.2476, "tool": "get_pass_by_name", "args": {"name": "Emma"}, "result_class": "success", "security_tags": []}
+{"timestamp": 5.2503, "tool": "query_doors_by_pass", "args": {"pass": "P100"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.query_doors_by_pass() got an unexpected keyword argument 'pass'"}
+{"timestamp": 6.0889, "tool": "inspect_db", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 6.8987, "tool": "query_users_by_door", "args": {"door": "C"}, "result_class": "success", "security_tags": []}
+{"timestamp": 7.8701, "tool": "query_users_by_door", "args": {"door": "C"}, "result_class": "success", "security_tags": []}
+{"timestamp": 7.873, "tool": "get_pass_by_name", "args": {"name": "Emma"}, "result_class": "success", "security_tags": []}
+{"timestamp": 7.8757, "tool": "query_doors_by_pass", "args": {"pass": "P100"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.query_doors_by_pass() got an unexpected keyword argument 'pass'"}

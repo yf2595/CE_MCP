@@ -1,0 +1,40 @@
+{
+  "users": {
+    "Emma": {
+      "role": "user",
+      "passkey": "P100",
+      "doors": [
+        "A",
+        "C"
+      ]
+    },
+    "John": {
+      "role": "user",
+      "passkey": "P200",
+      "doors": [
+        "B",
+        "D",
+        "get_user_role"
+      ]
+    },
+    "Alice": {
+      "role": "analyst",
+      "passkey": "P300",
+      "doors": [
+        "C"
+      ]
+    },
+    "Bob": {
+      "role": "user",
+      "passkey": "P400",
+      "doors": [
+        "A"
+      ]
+    },
+    "Mallory": {
+      "role": "user",
+      "passkey": "P500",
+      "doors": []
+    }
+  }
+}

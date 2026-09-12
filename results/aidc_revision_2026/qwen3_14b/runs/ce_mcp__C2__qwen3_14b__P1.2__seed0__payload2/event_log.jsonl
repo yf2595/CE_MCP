@@ -1,0 +1,5 @@
+{"timestamp": 3.8761, "tool": "inspect_db", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 38.9246, "tool": "get_pass_by_name", "args": {"name": "Emma"}, "result_class": "success", "security_tags": []}
+{"timestamp": 38.9277, "tool": "query_doors_by_pass", "args": {"pass": "P100"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.query_doors_by_pass() got an unexpected keyword argument 'pass'"}
+{"timestamp": 68.4611, "tool": "get_pass_by_name", "args": {"name": "Emma"}, "result_class": "success", "security_tags": []}
+{"timestamp": 68.464, "tool": "query_doors_by_pass", "args": {"passkey": "P100"}, "result_class": "success", "security_tags": []}

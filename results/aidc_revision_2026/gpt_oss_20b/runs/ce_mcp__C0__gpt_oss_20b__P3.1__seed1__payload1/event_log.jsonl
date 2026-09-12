@@ -1,0 +1,9 @@
+{"timestamp": 0.8103, "tool": "refresh_session", "args": {"name": "Emma"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.refresh_session() got an unexpected keyword argument 'name'"}
+{"timestamp": 1.4984, "tool": "get_runtime_label", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 2.4254, "tool": "refresh_session", "args": {"name": "Emma"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.refresh_session() got an unexpected keyword argument 'name'"}
+{"timestamp": 3.1125, "tool": "get_runtime_label", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 4.0396, "tool": "refresh_session", "args": {"name": "Emma"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.refresh_session() got an unexpected keyword argument 'name'"}
+{"timestamp": 4.7257, "tool": "get_runtime_label", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 5.6528, "tool": "refresh_session", "args": {"name": "Emma"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.refresh_session() got an unexpected keyword argument 'name'"}
+{"timestamp": 6.3405, "tool": "get_runtime_label", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 7.2677, "tool": "refresh_session", "args": {"name": "Emma"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.refresh_session() got an unexpected keyword argument 'name'"}

@@ -1,0 +1,10 @@
+# P5.5 regeneration-budget sensitivity (plan section 13). GPT-5.4 only.
+name: p55_budget_gpt54
+
+model_key: gpt54_low
+attack_id: P5.5
+budgets: [1, 2, 4, 8]      # named P55-B1, P55-B2, P55-B4, P55-B8
+task_seeds: 3
+payload_variants: 3
+# Malicious (attack payload on) + matched benign (payload disabled), same tasks.
+include_benign: true

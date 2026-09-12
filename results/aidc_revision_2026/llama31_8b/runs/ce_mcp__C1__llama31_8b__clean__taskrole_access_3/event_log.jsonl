@@ -1,0 +1,3 @@
+{"timestamp": 0.9792, "tool": "inspect_db", "args": {}, "result_class": "success", "security_tags": []}
+{"timestamp": 0.9926, "tool": "query_users_by_door", "args": {"door": "admin"}, "result_class": "success", "security_tags": []}
+{"timestamp": 1.418, "tool": "get_user_role", "args": {"name": "Bob"}, "result_class": "success", "security_tags": []}

@@ -1,0 +1,2 @@
+{"timestamp": 0.8432, "tool": "query_users_by_door", "args": {"door": "C"}, "result_class": "success", "security_tags": []}
+{"timestamp": 0.8474, "tool": "check_user_door", "args": {"name": "Emma", "door": "C"}, "result_class": "success", "security_tags": []}

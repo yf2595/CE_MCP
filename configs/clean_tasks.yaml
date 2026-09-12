@@ -1,0 +1,8 @@
+# Clean tasks are generated deterministically by src/attacks/clean_tasks.py
+# This file documents the categories for the evaluation.
+categories:
+  - users_by_door
+  - doors_by_user
+  - role_access
+  - public_status
+count: 40

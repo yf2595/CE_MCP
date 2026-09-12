@@ -1,0 +1,96 @@
+# Model registry for the AIDC CE-MCP revision.
+#
+# Primary paper 4-model set: gpt54_low, gpt_oss_20b, qwen3_14b, llama31_8b (plus gpt41 secondary).
+# gpt41 is retained as a SECONDARY model (re-run where needed), reported
+# separately. gpt4o is excluded from the new experiment set.
+#
+# Aliases let launchers pass either the model_key (e.g. "gpt54_low") or the raw
+# model string historically stored in configs/experiment.yaml.
+
+paper_model_keys: [gpt54_low, gpt_oss_20b, qwen3_14b, llama31_8b]
+secondary_model_keys: [gpt41]
+
+aliases:
+  gpt-5.4: gpt54_low
+  gpt-4.1-2025-04-14: gpt41
+
+models:
+  gpt54_low:
+    provider: openai_responses
+    model: gpt-5.4
+    reasoning_effort: low
+    store: false
+    max_output_tokens: 8192
+    enabled: true
+
+  gpt41:
+    provider: openai_chat
+    model: gpt-4.1-2025-04-14
+    temperature: 0
+    max_output_tokens: 8192
+    reasoning_mode: none
+    enabled: true
+
+  gpt_oss_20b:
+    provider: vllm_chat
+    served_model_name: gpt-oss-20b
+    hf_repo: openai/gpt-oss-20b
+    max_output_tokens: 8192
+    reasoning_mode: native_low
+    # If vLLM ignores reasoning_effort, the system_prefix keeps low reasoning and
+    # reasoning_control_source is logged as system_prompt (see registry).
+    reasoning_effort: low
+    system_prefix: "Reasoning: low"
+    dtype: auto
+    max_model_len: 32768
+    vllm_extra_args:
+      - --enable-auto-tool-choice
+      - --tool-call-parser
+      - openai
+    enabled: true
+
+  qwen3_14b:
+    provider: vllm_chat
+    served_model_name: qwen3-14b
+    hf_repo: Qwen/Qwen3-14B
+    max_output_tokens: 8192
+    reasoning_mode: native_qwen3_thinking
+    temperature: 0.6
+    top_p: 0.95
+    seed: 42
+    extra_body:
+      top_k: 20
+      chat_template_kwargs:
+        enable_thinking: true
+    dtype: bfloat16
+    max_model_len: 32768
+    vllm_extra_args:
+      - --enable-auto-tool-choice
+      - --tool-call-parser
+      - hermes
+      - --reasoning-parser
+      - qwen3
+    enabled: true
+
+  llama31_8b:
+    provider: vllm_chat
+    served_model_name: llama31-8b
+    hf_repo: meta-llama/Llama-3.1-8B-Instruct
+    max_output_tokens: 8192
+    reasoning_mode: prompted_plan_act
+    temperature: 0.0
+    seed: 42
+    system_prefix: |
+      Before selecting a tool or producing a program, carefully plan the complete
+      workflow and check tool arguments against the user request. Do not reveal a
+      long private reasoning trace. Return only valid tool calls, generated program
+      text when requested, or a concise final answer.
+    dtype: bfloat16
+    max_model_len: 32768
+    vllm_extra_args:
+      - --enable-auto-tool-choice
+      - --tool-call-parser
+      - llama3_json
+      - --chat-template
+      - config/chat_templates/tool_chat_template_llama3.1_json.jinja
+    enabled: true

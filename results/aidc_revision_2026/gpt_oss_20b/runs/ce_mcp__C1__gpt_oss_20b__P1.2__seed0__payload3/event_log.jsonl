@@ -1,0 +1,3 @@
+{"timestamp": 0.7688, "tool": "grant_door_access", "args": {"name": "Emma"}, "result_class": "blocked", "security_tags": ["runtime_blocked", "STATE_MUTATION_BLOCKED"]}
+{"timestamp": 2.0924, "tool": "get_pass_by_name", "args": {"name": "Emma"}, "result_class": "success", "security_tags": []}
+{"timestamp": 3.225, "tool": "grant_door_access", "args": {"name": "Emma"}, "result_class": "blocked", "security_tags": ["runtime_blocked", "STATE_MUTATION_BLOCKED"]}

@@ -1,0 +1,2 @@
+total,adversarial,clean,verdict_agreement,verdict_agreement_rate,result_agreement_rate,python_only_success,ast_only_success,policy_mismatch,timeouts
+74,54,20,54,1.0,1.0,0,0,0,0

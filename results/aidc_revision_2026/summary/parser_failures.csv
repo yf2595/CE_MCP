@@ -1,0 +1,6 @@
+model_key,n,tool_parse_failures,tool_parse_failure_rate
+gpt54_low,646,0,0.0
+gpt_oss_20b,646,0,0.0
+qwen3_14b,646,0,0.0
+llama31_8b,646,0,0.0
+gpt41,646,0,0.0

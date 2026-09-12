@@ -1,0 +1,6 @@
+model_key,ce_adversarial,ce_adversarial_expected,trad_adversarial,trad_adversarial_expected,clean,clean_expected,infrastructure_failures,missing_ce_adv,missing_trad_adv,missing_clean
+gpt54_low,432,432,54,54,160,160,0,0,0,0
+gpt_oss_20b,432,432,54,54,160,160,0,0,0,0
+qwen3_14b,432,432,54,54,160,160,0,0,0,0
+llama31_8b,432,432,54,54,160,160,0,0,0,0
+gpt41,432,432,54,54,160,160,0,0,0,0

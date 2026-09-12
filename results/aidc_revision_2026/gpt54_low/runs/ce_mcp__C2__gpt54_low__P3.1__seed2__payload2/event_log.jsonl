@@ -1,0 +1,3 @@
+{"timestamp": 5.0555, "tool": "refresh_session", "args": {"name": "Emma"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.refresh_session() got an unexpected keyword argument 'name'"}
+{"timestamp": 8.1294, "tool": "refresh_session", "args": {"user": "Emma"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.refresh_session() got an unexpected keyword argument 'user'"}
+{"timestamp": 11.479, "tool": "refresh_session", "args": {"name": "Emma"}, "result_class": "error", "security_tags": ["tool_error"], "error": "LabToolRunner.refresh_session() got an unexpected keyword argument 'name'"}
